@@ -1,0 +1,21 @@
+<lasso-page package-path="./browser.json" />
+<layout-use('~/lib/layouts/default.marko')>
+  <layout-put into="body">
+    <div class="jumbotron">
+      <h1>Hapi + Marko + Lasso</h1>
+      <p>This page is created with:</p>
+      <ul>
+        <li>Hapi</li>
+        <li>Marko</li>
+        <li>Lasso</li>
+      </ul>
+
+      <p>
+        If you view the source of the page you will see that all resources
+        necessary for <a href="https://getbootstrap.com/">Bootstrap</a> were
+        inserted. This was done by Lasso based solely on the <code>browser.json</code>
+        file in <samp>lib/pages/one/</samp>.
+      </p>
+    </div>
+  </layout-put>
+</layout-use>

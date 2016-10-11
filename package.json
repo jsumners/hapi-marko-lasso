@@ -1,0 +1,41 @@
+{
+  "name": "hapi-marko-lasso",
+  "version": "0.1.0",
+  "description": "A simple project to figure out combining Hapi with Marko and Lasso",
+  "homepage": "https://github.com/jsumners/hapi-marko-lasso",
+  "main": "server.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test"
+  },
+  "precommit": [
+    "lint"
+  ],
+  "keywords": [
+    "hapi",
+    "marko",
+    "lasso"
+  ],
+  "author": "James Sumners <james.sumners@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-standard": "^8.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0",
+    "pre-commit": "^1.1.3",
+    "standard": "^8.3.0"
+  },
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "hapi-pino": "^1.2.0",
+    "lasso": "^2.5.9",
+    "marko": "^3.11.2",
+    "pino": "^2.12.3",
+    "require-self-ref": "^2.0.1"
+  }
+}

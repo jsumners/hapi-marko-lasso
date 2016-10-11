@@ -1,0 +1,8 @@
+{
+  "dependencies": [
+    { "type": "css", "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" },
+    { "type": "css", "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" },
+    { "type": "js", "url": "https://code.jquery.com/jquery-3.1.1.min.js" },
+    { "type": "js", "url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" }
+  ]
+}
